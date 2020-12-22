@@ -2,12 +2,14 @@
 title: "HelloWorld"
 author: "Alexis"
 date: "12/22/2020"
-output: html_document
+output: pdf_document
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+
+## This is a markdown file
 
 ## R Markdown
 
@@ -28,5 +30,3 @@ plot(pressure)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
-
-## This is a markdown file
